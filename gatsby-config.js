@@ -2,12 +2,11 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Neil Shah',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+      'Neil Shah is a final year Business Analytics student at National University of Singapore who enjoys data science, data analytics and bringing new ideas to life.',
+    siteUrl: 'https://neilshah.netlify.app/', // No trailing slash allowed!
+    image: '/og.png', // Path to your image you placed in the 'static' folder,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'Neil Shah',
+        short_name: 'NeilShah',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

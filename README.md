@@ -1,16 +1,16 @@
-# Lynn Zheng's Portfolio Website :)
+# Neil Shah's Portfolio Website
 
 <div align="center">
-  <img alt="Logo" src="https://github.com/RuolinZheng08/RuolinZheng08.github.io/blob/master/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://github.com/neilshah13/ResumeWebsite/blob/main/src/images/logo.png" width="100" />
 </div>
 
-Demo: [neilshah.github.io](https://ruolinzheng08.github.io)
+Demo: [neilshah.netlify.app](https://neilshah.netlify.app/)
 
 Adapted from [Brittany Chiang's Design on GitHub](https://github.com/bchiang7/v4).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1e277ec6-323f-44a7-becd-d14327cf8432/deploy-status)](https://app.netlify.com/sites/lynnzheng/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bad4f748-ea8e-4389-815c-112cb31e5ab4/deploy-status)](https://app.netlify.com/sites/neilshah/deploys)
 
-![demo](https://github.com/RuolinZheng08/RuolinZheng08.github.io/blob/master/src/images/demo.png)
+![demo](https://github.com/neilshah13/ResumeWebsite/blob/main/src/images/demo.png)
 
 ## 🛠 Installation & Set Up
 
