@@ -11,6 +11,7 @@ tech:
   - Flask
   - Python
 showInProjects: False
+company: 'iNTUition v7.0'
 ---
 **1st Runner Up – NTU iNTUition v7.0 Hackathon**
 
