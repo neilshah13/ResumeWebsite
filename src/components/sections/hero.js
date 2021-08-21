@@ -54,8 +54,8 @@ const StyledHeroSection = styled.section`
     white-space: nowrap;
     display: inline-block;
     position: relative;
-    animation-duration: 7s;
-    animation-timing-function: steps(25, end);
+    animation-duration: 8s;
+    animation-timing-function: steps(17, end);
     animation-iteration-count: infinite;
   }
   .text_1::after, .text_2::after {
@@ -82,7 +82,7 @@ const StyledHeroSection = styled.section`
     }
     
     60%, 90% {
-      width: 7em;
+      width: 8.5em;
     }
   }
   @keyframes text1 {
@@ -113,7 +113,7 @@ const Hero = () => {
   const two = <h2 className="big-heading">Neil Shah</h2>;
   const three = <h3 className="big-heading">
                 <span class="text_1">Data Scientist.</span>
-                <span class="text_2">Data Analyst.</span>
+                <span class="text_2">Software Engineer.</span>
                 </h3>;
   const four = (
     <p>
