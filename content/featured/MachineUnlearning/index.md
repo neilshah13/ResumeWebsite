@@ -10,4 +10,4 @@ tech:
 showInProjects: true
 ---
 
-To address the growing conerens around privacy and data poisoning attakcs my dissertation topic develops fast, extensible and easy to use techniques for machine learning models forget information. It hopes to extend and improve existing research in the field by focusing on building upon intuition and providing theoretical and empirical results. This project is under the guidance of [Prof Reza](https://www.comp.nus.edu.sg/~reza/)
+To address the growing concerns around privacy and data poisoning attacks my dissertation topic develops fast, extensible and easy to use techniques for machine learning models forget information. It hopes to extend and improve existing research in the field by focusing on building upon intuition and providing theoretical and empirical results. This project is under the guidance of [Prof Reza](https://www.comp.nus.edu.sg/~reza/)
