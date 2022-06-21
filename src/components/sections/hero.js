@@ -48,17 +48,20 @@ const StyledHeroSection = styled.section`
   .text_2 {
     animation: text2;
   }
+  .text_3 {
+    animation: text3;
+  }
   
-  .text_1, .text_2 {
+  .text_1, .text_2, .text_3 {
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
     position: relative;
-    animation-duration: 8s;
-    animation-timing-function: steps(17, end);
+    animation-duration: 12s;
+    animation-timing-function: steps(50, end);
     animation-iteration-count: infinite;
   }
-  .text_1::after, .text_2::after {
+  .text_1::after, .text_2::after, .text_3::after {
     content: "|";
     position: absolute;
     right: 1;
@@ -76,20 +79,28 @@ const StyledHeroSection = styled.section`
     }
   }
 
-  @keyframes text2 {
-    0%, 50%, 100% {
+  @keyframes text3 {
+    0%, 10%, 30%, 40%, 50%, 60%, 70%, 100% {
       width: 0;
     }
     
-    60%, 90% {
-      width: 8.5em;
+    90% {
+      width: 9.5em;
     }
   }
   @keyframes text1 {
-    0%, 50%, 100% {
+    0%, 40%, 50%, 60%, 70%, 90%, 100% {
       width: 0;
     }
-    10%, 40% {
+    30% {
+      width: 9.5em;
+    }
+  }
+  @keyframes text2 {
+    0%, 10%, 30%, 50%, 70%, 90%, 100% {
+      width: 0;
+    }
+    60% {
       width: 7.5em;
     }
   }
@@ -112,15 +123,17 @@ const Hero = () => {
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Neil Shah</h2>;
   const three = <h3 className="big-heading">
-                <span class="text_1">Data Scientist.</span>
-                <span class="text_2">Software Engineer.</span>
+                <span class="text_1">Product Manager.</span>
+                <span class="text_2">Data Scientist.</span>
+                <span class="text_3">Software Engineer.</span>
                 </h3>;
   const four = (
     <p>
-      I'm a final year Business Analytics student at 
-      {''} <a href="https://www.nus.edu.sg/" target="_blank" rel="noreferrer"> National Univeristy of Singapore </a>. 
-      I'm a data scientist and data analyst specialising in the E-commerce industry.
-      I also love dabbling in software engineering and product management. 
+      I'm a Business Analytics graduate from 
+      {''} <a href="https://www.nus.edu.sg/" target="_blank" rel="noreferrer">National Univeristy of Singapore </a>
+      and am currently working as a Product Manager at {''} <a href="https://www.workato.com/" target="_blank" rel="noreferrer">Workato</a>. 
+      I'm also data scientist and data analyst having worked in the E-commerce industry.
+      I also love dabbling in software engineering and looking into Web3 Products. 
       I have interned at {''} <a href="https://shopee.sg/" target="_blank" rel="noreferrer">Shopee</a>, 
       {''} <a href="https://www.carousell.sg/" target="_blank" rel="noreferrer">Carousell</a>, 
       {''} <a href="https://www.visenze.com/" target="_blank" rel="noreferrer">Visenze</a> and more.

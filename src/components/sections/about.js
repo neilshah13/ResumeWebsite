@@ -156,7 +156,7 @@ const About = () => {
               I am currently fascinated with all things data and love to build and tinker around projects and machine learning models.
               As much as I enjoy coding, I love to interact with people, ideate and bring to life amazing ideas.
               I am passionate about teaching, having been a <div className="h">Teaching Assistant</div> for 3 modules over the last 2 years.
-              I am also dabbling in <div className="h">Artifical Intelligence Research </div>, <div className="h">Product Management</div>, <div className="h">Economics</div> and more.
+              I am also interested in <div className="h">Artifical Intelligence Research </div>, <div className="h">Product Management</div>, <div className="h">Economics</div> and more.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

@@ -4,7 +4,7 @@
   <img alt="Logo" src="https://github.com/neilshah13/ResumeWebsite/blob/main/src/images/logo.png" width="100" />
 </div>
 
-Demo: [neilshah.netlify.app](https://neilshah.netlify.app/)
+Demo: [neilshah.me](https://neilshah.me/)
 
 Adapted from [Brittany Chiang's Design on GitHub](https://github.com/bchiang7/v4).
 

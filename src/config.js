@@ -29,6 +29,10 @@ module.exports = {
       name: 'Contact',
       url: '/#contact',
     },
+    {
+      name: 'Blog',
+      url: 'https://curiousllama.substack.com/',
+    },
   ],
 
   colors: {
